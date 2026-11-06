@@ -25,7 +25,7 @@ public class GeminiService {
 
     // Gemini REST API base URL
     private static final String GEMINI_BASE_URL = "https://generativelanguage.googleapis.com";
-    private static final String MODEL = "gemini-2.0-flash";
+    private static final String MODEL = "gemini-3.8-flash";
 
     public GeminiService(@Value("${gemini.api.key}") String apiKey) {
         this.apiKey = apiKey;
